@@ -143,9 +143,38 @@ switch(num) {
         console.warn("Not here");
 }
 
-let A = 100;
+let A = 10;
 
-while(A <=200) {
+while(A <=20) {
     console.log(A);
     A ++;
 }
+
+//second loop
+// let x = 100
+
+// while(x%2==0) {
+//     console.log("-")
+//     else console.log("*")
+// }
+
+let strictA = true;
+let strictB = 1;
+console.log(strictA == strictB);
+console.log(strictA === strictB);
+
+console.log(strictA != strictB);
+console.log(strictA !== strictB);
+
+
+let xage = 49;
+
+if(xage >= 18 && xage <= 65) {
+    console.log("You're an adult.");
+} else if(xage <18) {
+    console.log("You're a minor.");
+} else {
+    console.log("You're old.");
+}
+
+xage >= 50 ? console.log("Age is over 49.") : console.log("Age is less than 50.");
