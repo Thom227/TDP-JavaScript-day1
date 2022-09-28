@@ -8,6 +8,13 @@ for(let i = 0; i < 3; i++) {
     console.log(`i = ${i}`);
 }
 
+
+//for loop(initialisation;condition;iterator){statement}
+for(let i = 0; i <=10; i++) {
+    console.log(i);
+}
+
+
 //WHILE loop work with BOOLEANs, run untill a 
 //condition is no longer true
 let  condition = true;
