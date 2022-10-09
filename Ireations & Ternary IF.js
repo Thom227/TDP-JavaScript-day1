@@ -1,6 +1,7 @@
 'use strixt';
 
 //Iteration == loops
+
 //FOR loop runs while a condition is met
 //i for iteration = convetional way just
 
@@ -15,8 +16,8 @@ for(let i = 0; i <=10; i++) {
 }
 
 
-//WHILE loop work with BOOLEANs, run untill a 
-//condition is no longer true
+//WHILE loop work with BOOLEANs primarily, run untill a condition is no longer true
+
 let  condition = true;
 let increment = 0;
 
@@ -29,17 +30,15 @@ while(condition === true) {
     }
 }
 
-//DO-WHILE is like a while loop but will ALWAYS
-//run atleast once
+//DO-WHILE is like a while loop but will ALWAYS run atleast once
 
 let z = false;
 do{
     console.log("Run forest run");
 } while(z === true);
 
-//SWITCH CASES will run a break or return
-//Can be much more effective than large if-else
-//if statements
+//SWITCH CASES will run a break or return. Can be much more effective than large if-else-if statement
+
 
 let num =3;
 switch(num) {
@@ -57,13 +56,6 @@ switch(num) {
         break;
     default:
         console.warn("Not here");
-}
-
-let A = 10;
-
-while(A <=20) {
-    console.log(A);
-    A ++;
 }
 
 let strictA = true;
@@ -86,3 +78,5 @@ if(xage >= 18 && xage <= 65) {
 }
 
 xage >= 50 ? console.log("Age is over 49.") : console.log("Age is less than 50.");
+
+
